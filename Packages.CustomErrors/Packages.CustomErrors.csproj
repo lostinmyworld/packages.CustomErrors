@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <Authors>Panagiotis Katsampiris</Authors>
+    <Company>Panagiotis Katsampiris</Company>
+    <Product>Packages.CustomErrors</Product>
+    <Description>Custom errors using HTTP status, error code enum and exposed details and title along with a human readable ProblemDetails.</Description>
+    <Copyright>2021</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lostinmyworld/CustomErrors</RepositoryUrl>
+    <PackageTags>exceptions; custom errors</PackageTags>
+    <PackageReleaseNotes>nuget creation</PackageReleaseNotes>
+    <PackageId>pkats.Packages.CustomErrors</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+</Project>

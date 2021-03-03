@@ -1,0 +1,1 @@
+﻿dotnet nuget push pkats.Packages.CustomErrors.0.0.1.nupkg --api-key #API_KEY# --source https://api.nuget.org/v3/index.json
