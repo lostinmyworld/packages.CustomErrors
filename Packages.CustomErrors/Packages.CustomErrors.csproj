@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Deterministic>false</Deterministic>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <AssemblyVersion>0.0.1.1</AssemblyVersion>
     <Authors>Panagiotis Katsampiris</Authors>
     <Company>Panagiotis Katsampiris</Company>
