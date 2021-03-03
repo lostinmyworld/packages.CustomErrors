@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Packages.CustomErrors.Helpers;
+using packages.Api.Enums;
 using System;
 using System.Net;
 
@@ -8,7 +8,6 @@ namespace Packages.CustomErrors.Exceptions.Base
     public class BaseException : Exception
     {
         public ErrorCodeEnum ErrorCode { get; set; }
-        public LogLevelEnum LogLevel { get; set; }
         public string ExposedTitle { get; set; }
         public string ExposedDetails { get; set; }
         public HttpStatusCode StatusCode { get; set; }
@@ -29,16 +28,6 @@ namespace Packages.CustomErrors.Exceptions.Base
             ExposedTitle = title;
             ExposedDetails = details;
             ErrorCode = errorCode;
-        }
-
-        protected BaseException(HttpStatusCode statusCode, string title, string details, ErrorCodeEnum errorCode, LogLevelEnum logLevel, string message)
-            : base(message)
-        {
-            StatusCode = statusCode;
-            ExposedTitle = title;
-            ExposedDetails = details;
-            ErrorCode = errorCode;
-            LogLevel = logLevel;
         }
 
         protected BaseException(string title, string details, ErrorCodeEnum errorCode, ProblemDetails problemDetails)

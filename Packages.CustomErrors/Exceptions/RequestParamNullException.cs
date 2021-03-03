@@ -1,5 +1,5 @@
-﻿using Packages.CustomErrors.Exceptions.Base;
-using Packages.CustomErrors.Helpers;
+﻿using packages.Api.Enums;
+using Packages.CustomErrors.Exceptions.Base;
 using System;
 using System.Net;
 
