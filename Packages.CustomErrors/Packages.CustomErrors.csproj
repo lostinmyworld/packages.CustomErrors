@@ -4,14 +4,14 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Deterministic>false</Deterministic>
     <Version>0.0.3</Version>
-    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <AssemblyVersion>0.0.3</AssemblyVersion>
     <Authors>Panagiotis Katsampiris</Authors>
     <Company>Panagiotis Katsampiris</Company>
     <Product>Packages.CustomErrors</Product>
     <Description>Custom errors using HTTP status, error code enum and exposed details and title along with a human readable ProblemDetails.</Description>
     <Copyright>2021</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl>https://github.com/lostinmyworld/CustomErrors</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lostinmyworld/packages.CustomErrors</RepositoryUrl>
     <PackageTags>exceptions; custom errors</PackageTags>
     <PackageReleaseNotes>added enums nuget and removed local.</PackageReleaseNotes>
     <PackageId>pkats.Packages.CustomErrors</PackageId>
